@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.dropdown-container {
+    display: flex;
+    justify-content: space-between; /* Space between the columns */
+    gap: 20px; /* Optional: Adjust the space between dropdowns */
+    max-width: 1000px; /* Optional: Control the overall width of the container */
+    margin: 0 auto; /* Center the dropdowns on the page */
+}
+
+.dropdown {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    flex: 1; /* Allows all dropdowns to have the same width */
+    min-width: 200px; /* Optional: Set a minimum width for each dropdown */
+}
+
+.dropdown label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.dropdown select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background-color: #f9f9f9;
+    font-size: 16px;
+}
+
+.dropdown select:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
